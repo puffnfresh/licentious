@@ -15,5 +15,5 @@ Staging:
   <<: *defaults
 
 Production:
-  #approot: "http://www.example.com"
+  approot: "http://licentious.herokuapp.com"
   <<: *defaults
