@@ -20,7 +20,7 @@ import qualified Network.HTTP.Conduit as HTTP
 getUserName :: Text -> IO Text
 getUserName token = do
     userContent <- HTTP.simpleHttp . Text.unpack $ "https://api.github.com/user?access_token=" `mappend` token
-    let name = jsonString . fromJust $ Aeson.decode userContent >>= parseMaybe userName
+    let name = maybe "" jsonString $ Aeson.decode userContent >>= parseMaybe userName
     return name
         where
             userName (Object o) = o .: "name"
