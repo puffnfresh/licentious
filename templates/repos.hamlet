@@ -1,0 +1,3 @@
+<form action=@{ReposR} method="POST" enctype=#{enctype}>
+  ^{repoWidget}
+  <input .btn .btn-primary type="submit" value="Submit" />

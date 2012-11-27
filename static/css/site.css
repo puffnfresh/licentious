@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.masthead {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    padding: 70px 0 0;
+    text-align: center;
+}
+
+.masthead h1 {
+    font-size: 120px;
+    line-height: 1;
+    letter-spacing: -2px;
+    color: #D85453;
+}
+
+.masthead p {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+p, label {
+    line-height: 1.25;
+}
+
+label {
+    font-size: 24px;
+}
+
+select, #main .controls input {
+    font-size: 20px;
+}
+
+select {
+    height: 32px;
+    line-height: 32px;
+}
+
+#main .controls input {
+    padding: 6px;
+    text-align: center;
+}
+
+.btn {
+    padding: 19px 24px;
+    font-size: 24px;
+    font-weight: 200;
+    border: 0;
+}
+
+footer {
+    margin-bottom: 30px;
+}

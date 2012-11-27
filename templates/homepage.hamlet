@@ -1,0 +1,11 @@
+<div .masthead>
+  <h1>Licentious
+
+  <p>License your GitHub repository in seconds
+
+  <p><a class="btn btn-primary btn-large" href=@{AuthR gitHubUrl}>Sign in with GitHub <span class="social foundicon-github">&nbsp;</span></a>
+
+  <p><img src="/static/img/step1.png" alt="" />
+  <p><img src="/static/img/step2.png" alt="" />
+  <p><img src="/static/img/step3.png" alt="" />
+  <p><img src="/static/img/step4.png" alt="" />
