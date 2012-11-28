@@ -1,16 +1,16 @@
 name:              licentious
 version:           0.0.0
-license:           BSD3
-license-file:      LICENSE
+license:           MIT
+license-file:      LICENSE.txt
 author:            Brian McKenna
 maintainer:        Brian McKenna
-synopsis:          The greatest Yesod web application ever.
-description:       I'm sure you can say something clever here if you try.
+synopsis:          License your GitHub repository in seconds
+description:       License your GitHub repository in seconds
 category:          Web
 stability:         Experimental
 cabal-version:     >= 1.8
 build-type:        Simple
-homepage:          http://licentious.yesodweb.com/
+homepage:          http://licentious.herokuapp.com/
 
 Flag dev
     Description:   Turn on development settings, like auto-reload templates.
