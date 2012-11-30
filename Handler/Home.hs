@@ -84,8 +84,14 @@ licensesContents = sequenceA $ map nameWithContent licensesNames
             return (snd license, License (snd license) content)
 
 licensesNames :: [(FilePath, Text)]
-licensesNames = [("mit.txt", "MIT"), ("apache.txt", "Apache 2.0"), ("gnu-gplv3.txt", "GNU GPL v3")]
-
+licensesNames =
+    [ ("mit.txt", "MIT")
+    , ("apache.txt", "Apache 2.0")
+    , ("CC_BY-NC-SA_3.0.txt", "CC BY-NC-SA 3.0")
+    , ("newbsd.txt", "BSD (3 clause)")
+    , ("freebsd.txt", "FreeBSD (2 clause)")
+    , ("gnu-gplv3.txt", "GNU GPL v3")
+    ]
 
 gitHubRepositoriesSelectField :: Handler (OptionList Repository)
 gitHubRepositoriesSelectField = do
