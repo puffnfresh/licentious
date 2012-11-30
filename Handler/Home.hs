@@ -90,8 +90,8 @@ licensesNames =
     , ("CC_BY-NC-SA_3.0.txt", "CC BY-NC-SA 3.0")
     , ("newbsd.txt", "BSD (3 clause)")
     , ("freebsd.txt", "FreeBSD (2 clause)")
+    , ("gnu-gplv3.txt", "GNU GPL v3")
     ]
-
 
 gitHubRepositoriesSelectField :: Handler (OptionList Repository)
 gitHubRepositoriesSelectField = do
