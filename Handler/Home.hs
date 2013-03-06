@@ -47,7 +47,7 @@ postReposR = do
         (FormSuccess (repo, license, name)) -> do
             -- TODO: Figure out why API not returning default_branch
             time <- liftIO getCurrentTime
-            
+
             let repoBranch _ = "heads/master"
                 year = Text.pack $ formatTime defaultTimeLocale "%Y" time
                 licenseContent' = Text.replace "$year" year . Text.replace "$name" name $ licenseContent license
@@ -90,6 +90,7 @@ licensesNames =
     , ("CC_BY-NC-SA_3.0.txt", "CC BY-NC-SA 3.0")
     , ("newbsd.txt", "BSD (3 clause)")
     , ("freebsd.txt", "FreeBSD (2 clause)")
+    , ("isc.txt", "ISC")
     ]
 
 
