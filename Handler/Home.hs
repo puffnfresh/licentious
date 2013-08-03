@@ -91,7 +91,7 @@ licensesNames =
     , ("newbsd.txt", "BSD (3 clause)")
     , ("freebsd.txt", "FreeBSD (2 clause)")
     , ("isc.txt", "ISC")
-    , ("gpl_v3", "GPLv3")
+    , ("gpl_v2", "GNU GPLv2")
     ]
 
 
